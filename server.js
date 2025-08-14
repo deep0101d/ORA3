@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const OPENAI_KEY = "sk-your-real-key-here"; // your OpenAI key
+const OPENAI_KEY = "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"; // your OpenAI key
 
 app.post("/chat", async (req, res) => {
   try {
