@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 // Hardcoded key for hackathon demo ONLY
-const OPENAI_KEY = "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"; // Replace with your key
+const OPENAI_KEY = "sk-ijklmnopqrstuvwxijklmnopqrstuvwxijklmnop"; // Replace with your key
 
 // Chat endpoint
 app.post("/chat", async (req, res) => {
